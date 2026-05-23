@@ -28,20 +28,26 @@ layout: default
       30vw, 95vw"{% endcapture %}
 
           {% if page.profile.image_alt %}
+            {% assign alt_image_path = page.profile.image_alt | prepend: 'assets/img/' %}
             <div class="flip-card" onclick="this.classList.toggle('flipped')">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  {%
-                    include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-                    cache_bust=true
-                  %}
+                  <img
+                    src="{{ profile_image_path | relative_url | bust_file_cache }}"
+                    class="{{ profile_image_class }}"
+                    width="100%" height="auto"
+                    alt="{{ page.profile.image }}"
+                    loading="eager"
+                  >
                 </div>
                 <div class="flip-card-back">
-                  {% assign alt_image_path = page.profile.image_alt | prepend: 'assets/img/' %}
-                  {%
-                    include figure.liquid loading="eager" path=alt_image_path class=profile_image_class sizes=sizes alt=page.profile.image_alt
-                    cache_bust=true
-                  %}
+                  <img
+                    src="{{ alt_image_path | relative_url | bust_file_cache }}"
+                    class="{{ profile_image_class }}"
+                    width="100%" height="auto"
+                    alt="{{ page.profile.image_alt }}"
+                    loading="eager"
+                  >
                   {% if page.profile.image_alt_caption %}
                     <div class="flip-caption">{{ page.profile.image_alt_caption }}</div>
                   {% endif %}
