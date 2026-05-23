@@ -1,0 +1,114 @@
+cv:
+  name: Chris (Haolin) Qu
+  label: Software Engineer
+  email: chrisqu.job@gmail.com
+  phone: 314-229-9724
+  location: Houston, TX
+  image: ""
+  summary: Full-stack and backend engineer with 2+ years of experience designing and scaling distributed systems and data-driven applications using Java, Python, React, and cloud technologies.
+
+  social_networks:
+    - network: GitHub
+      username: Sirhc-uQ
+    - network: LinkedIn
+      username: chris-qu-936ab4250
+
+  sections:
+    Education:
+      - institution: Washington University in St. Louis
+        location: St. Louis, MO
+        url: https://wustl.edu
+        area: Computer Science
+        studyType: Master of Science
+        start_date: 2021-09
+        end_date: 2023-05
+        score: "GPA: 3.5/4.0"
+        highlights:
+          - "McKelvey School of Engineering"
+          - "Coursework: Advanced Algorithm, Data Mining, Machine Learning, Rapid Prototype Development and Creative Programming"
+
+      - institution: Southwest University
+        location: Chongqing, China
+        url: https://www.swu.edu.cn
+        area: Software Engineering
+        studyType: Bachelor of Engineering
+        start_date: 2017-09
+        end_date: 2021-06
+        score: "GPA: 3.7/4.0"
+        highlights:
+          - "Coursework: Advanced Mathematics, C/C++ Programming, Java Basic Programming, Data Structure and Algorithms"
+
+    Experience:
+      - company: Daxwell
+        position: Software Developer
+        location: Houston, TX
+        start_date: 2023-09
+        end_date: present
+        summary: Architected and scaled a distributed ERP/CRM platform on AWS EKS, owning end-to-end design across microservices, data pipelines, and infrastructure.
+        highlights:
+          - "Designed a high-consistency transactional engine handling dynamic pricing, contract lifecycle management, and state transitions across distributed services."
+          - "Built real-time supply-demand orchestration integrating orders, procurement, and inventory using event-driven architecture (Kafka)."
+          - "Improved platform scalability through containerized microservices (Spring Boot, GraphQL, RESTful, Redis, PostgreSQL), reducing latency by 60%."
+          - "Established secure service-to-service authentication (Auth0 OIDC, RBAC) and production-grade observability (CI/CD, metrics, tracing, logging)."
+          - "Designed a streaming and integration layer linking IoT (Project44), logistics (OTM), CRM (Salesforce), and ERP data through Kafka, Flink."
+
+      - company: Xiaomi Technology
+        position: Backend Development Intern
+        location: Beijing, China
+        start_date: 2021-05
+        end_date: 2021-07
+        highlights:
+          - "Developed flash sale functionality for the 618 Shopping Festival, leveraging Nginx for load balancing and Redis for caching."
+          - "Implemented Apache Kafka and multithreading for efficient asynchronous processing."
+          - "Contributed to a high-traffic WeChat account using Kafka dead-letter queue for message notifications."
+
+      - company: WeBank
+        position: Java Backend Development Engineer Intern
+        location: Shenzhen, China
+        start_date: 2020-06
+        end_date: 2020-08
+        highlights:
+          - "Developed and optimized a high-performance data system using Redis for financial transactions."
+          - "Implemented backend services using RESTful API, Spring Boot to enhance system efficiency."
+          - "Implemented a microservices architecture using Spring Cloud for distributed system stability."
+
+    Skills:
+      - name: Languages
+        level: ""
+        icon: fa-solid fa-code
+        keywords: "Java, Python, TypeScript"
+      - name: Backend
+        level: ""
+        icon: fa-solid fa-server
+        keywords: "Spring Boot, RESTful, GraphQL, Airflow, Flink, Kafka"
+      - name: Frontend
+        level: ""
+        icon: fa-solid fa-desktop
+        keywords: "React, Next.js, Redux, MUI, Apollo Client"
+      - name: Data & Storage
+        level: ""
+        icon: fa-solid fa-database
+        keywords: "PostgreSQL, Redis, Databricks"
+      - name: Cloud & DevOps
+        level: ""
+        icon: fa-solid fa-cloud
+        keywords: "AWS (EKS, S3), Argo, Kubernetes, Docker, Helm, GitHub Actions"
+
+    Languages:
+      - name: Chinese
+        summary: "Native / Bilingual"
+      - name: English
+        summary: "Native / Bilingual"
+
+    Awards:
+      - title: Top 10% Engineering College Scholarship
+        date: 2019
+        awarder: Southwest University
+      - title: Top 30% Engineering College Scholarship
+        date: 2018
+        awarder: Southwest University
+
+    Interests:
+      - name: Sports & Hobbies
+        icon: fa-solid fa-basketball
+        keywords: "Basketball, Tennis, Texas Hold'em, Fitness"
