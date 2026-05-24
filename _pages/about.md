@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Home
+title: About
 permalink: /
 subtitle: Software Engineer at <a href="https://www.daxwell.com">Daxwell</a> | Houston, TX
 
