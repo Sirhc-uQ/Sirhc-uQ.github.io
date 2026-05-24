@@ -32,6 +32,6 @@ I specialize in building microservices with **Spring Boot** and **RESTful APIs**
 
 Currently at [Daxwell](https://www.daxwell.com), I architect and scale a distributed ERP/CRM platform on AWS EKS, owning end-to-end design across microservices, data pipelines, and infrastructure.
 
-I hold an **M.S. in Computer Science** from [Washington University in St. Louis](https://wustl.edu) and a **B.E. in Software Engineering** from [Southwest University](https://www.swu.edu.cn).
+I hold an **M.S. in Computer Science** from [Washington University in St. Louis](https://wustl.edu) and a **B.E. in Software Engineering** from [Southwest University](https://admissions.swu.edu.cn) in China.
 
 Outside of work, I enjoy basketball, tennis, Texas Hold'em, and fitness.
