@@ -95,7 +95,18 @@ body.sticky-bottom-footer {
       padding: 0.4rem 0;
       font-style: italic;
       font-size: 0.875rem;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    &:hover .flip-caption,
+    &.flipped .flip-caption {
       opacity: 0.75;
+    }
+
+    &.circular .flip-card-inner {
+      border-radius: 50%;
+      overflow: hidden;
     }
   }
 }

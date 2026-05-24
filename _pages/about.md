@@ -1,13 +1,13 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
 subtitle: Software Engineer at <a href="https://www.daxwell.com">Daxwell</a> | Houston, TX
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   image_alt: deedee.jpg
   image_alt_caption: "Hi, I'm DeeDee :)"
   more_info: >

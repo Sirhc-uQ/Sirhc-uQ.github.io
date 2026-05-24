@@ -29,7 +29,7 @@ layout: default
 
           {% if page.profile.image_alt %}
             {% assign alt_image_path = page.profile.image_alt | prepend: 'assets/img/' %}
-            <div class="flip-card" onclick="this.classList.toggle('flipped')">
+            <div class="flip-card{% if page.profile.image_circular %} circular{% endif %}" onclick="this.classList.toggle('flipped')">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
                   <img
@@ -48,11 +48,11 @@ layout: default
                     alt="{{ page.profile.image_alt }}"
                     loading="eager"
                   >
-                  {% if page.profile.image_alt_caption %}
-                    <div class="flip-caption">{{ page.profile.image_alt_caption }}</div>
-                  {% endif %}
                 </div>
               </div>
+              {% if page.profile.image_alt_caption %}
+                <div class="flip-caption">{{ page.profile.image_alt_caption }}</div>
+              {% endif %}
             </div>
           {% else %}
             {%
