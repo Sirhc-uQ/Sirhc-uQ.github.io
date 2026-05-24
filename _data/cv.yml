@@ -75,6 +75,17 @@ cv:
           - "Utilized **Apache Kafka** as a message queue to enable asynchronous processing and load balancing to ensure reliable message delivery."
           - "Implemented a microservices architecture, using **Spring Cloud** to ensure stability and consistency of distributed system."
 
+      - company: Nanjing Linghang Technology Co., Ltd
+        position: Engineering Intern
+        location: Nanjing, Jiangsu, China
+        start_date: 2019-06
+        end_date: 2019-08
+        highlights:
+          - "Developed backend functionality for financial-related projects using **Spring MVC**, **Spring**, and **MyBatis** frameworks."
+          - "Practiced Test-Driven Development (TDD) by writing and executing unit tests using **JUnit** and **Mockito**, resulting in improved software quality."
+          - "Resolved technical issues in day-to-day development, conducted code reviews, and performed performance optimization."
+          - "Contributed to the development and maintenance of documentation, ensuring code and system maintainability and scalability."
+
     Skills:
       - name: Languages
         level: ""
