@@ -30,11 +30,12 @@
       "startDate": "2023-09-01",
       "summary": "Architected and scaled a distributed ERP/CRM platform on AWS EKS.",
       "highlights": [
-        "Designed a high-consistency transactional engine handling dynamic pricing and contract lifecycle management.",
-        "Built real-time supply-demand orchestration using event-driven architecture (Kafka).",
-        "Improved platform scalability through containerized microservices, reducing latency by 60%.",
-        "Established secure service-to-service authentication (Auth0 OIDC, RBAC) and production-grade observability.",
-        "Designed a streaming layer linking IoT, logistics, CRM, and ERP data through Kafka and Flink."
+        "Architected and scaled a **distributed ERP/CRM platform** on **AWS EKS**, owning end-to-end design across microservices, data pipelines, and infrastructure.",
+        "Designed a **high-consistency transactional engine** handling dynamic pricing, contract lifecycle management, and state transitions across **distributed services**.",
+        "Built real-time **supply-demand orchestration** integrating orders, procurement, and inventory using **event-driven architecture (Kafka)**.",
+        "Improved platform scalability through containerized microservices **(Spring Boot, GraphQL, RESTful, Redis, PostgreSQL)**, reducing latency by 60%.",
+        "Established secure **service-to-service authentication (Auth0** OIDC, **RBAC)** and production-grade observability **(CI/CD, metrics, tracing, logging)**.",
+        "Designed a **streaming and integration layer** linking **IoT (Project44)**, **logistics (OTM)**, **CRM (Salesforce)**, and ERP data through **Kafka, Flink** into **Databricks**."
       ]
     },
     {
@@ -44,9 +45,10 @@
       "startDate": "2021-05-01",
       "endDate": "2021-07-31",
       "highlights": [
-        "Developed flash sale functionality for the 618 Shopping Festival with Nginx and Redis.",
-        "Implemented Apache Kafka and multithreading for asynchronous processing.",
-        "Contributed to a high-traffic WeChat account using Kafka dead-letter queue."
+        "Developed flash sale functionality for the 618 Shopping Festival, leveraging **Nginx** for load balancing and **Redis** for caching.",
+        "Implemented **Apache Kafka** and multithreading for efficient asynchronous processing.",
+        "Contributed to a high-traffic WeChat account, using **Apache Kafka** to create a dead-letter queue for message notifications.",
+        "Completed backend requirements for H5 pages, developed real-time Olympic medal tally feature with Spring Boot."
       ]
     },
     {
@@ -56,9 +58,10 @@
       "startDate": "2020-06-01",
       "endDate": "2020-08-31",
       "highlights": [
-        "Developed high-performance data system using Redis for financial transactions.",
-        "Implemented backend services using RESTful API and Spring Boot.",
-        "Implemented microservices architecture using Spring Cloud."
+        "Developed and optimized a high-performance data system, utilizing **Redis** for efficient data storage and retrieval of financial transactions.",
+        "Implemented backend services using **RESTful API**, **Spring framework**, **Spring Boot** to enhance system efficiency.",
+        "Utilized **Apache Kafka** as a message queue to enable asynchronous processing and load balancing.",
+        "Implemented a microservices architecture, using **Spring Cloud** to ensure stability and consistency of distributed system."
       ]
     }
   ],

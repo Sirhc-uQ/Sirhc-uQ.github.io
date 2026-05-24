@@ -1,21 +1,20 @@
 ---
 layout: page
-title: Xiaomi 618 Flash Sale System
-description: High-performance flash sale system for Xiaomi's 618 Shopping Festival, handling massive concurrent traffic with Nginx load balancing and Redis caching.
+title: Library Book Information Management
+description: Library book management system with user login, book borrowing management, built with Spring, Hibernate, and MySQL.
 img:
 importance: 3
-category: professional
+category: personal
 ---
 
-Developed Xiaomi's **flash sale functionality** for the 618 Shopping Festival, one of China's largest e-commerce events, ensuring system stability under massive concurrent traffic.
-
-### Key Highlights
-
-- Leveraged **Nginx** for load balancing and **Redis** for caching to ensure system stability
-- Implemented **Apache Kafka** and multithreading for efficient asynchronous processing
-- Contributed to a high-traffic WeChat account, using Kafka dead-letter queue for message notifications
-- Built real-time Olympic medal tally feature with Spring Boot scheduled tasks
+**May 2020 – Jun 2020** | Associated with Southwest University
 
 ### Tech Stack
+`HTML/CSS` `Spring` `SpringMVC` `Hibernate` `MySQL`
 
-`Java` `Spring Boot` `Redis` `Nginx` `Apache Kafka` `MySQL`
+### Highlights
+
+- Designed a library book management system to assist library to store book borrowing information
+- Used HTML/CSS to implement main functions of user login, managing book and borrowing information
+- Applied MySQL for data storage of usernames, passwords information of students and books
+- Utilized Hibernate to accomplish database access and Spring, SpringMVC to implement all components in Web application

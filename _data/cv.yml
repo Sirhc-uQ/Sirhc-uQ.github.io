@@ -46,11 +46,12 @@ cv:
         end_date: present
         summary: Architected and scaled a distributed ERP/CRM platform on AWS EKS, owning end-to-end design across microservices, data pipelines, and infrastructure.
         highlights:
-          - "Designed a high-consistency transactional engine handling dynamic pricing, contract lifecycle management, and state transitions across distributed services."
-          - "Built real-time supply-demand orchestration integrating orders, procurement, and inventory using event-driven architecture (Kafka)."
-          - "Improved platform scalability through containerized microservices (Spring Boot, GraphQL, RESTful, Redis, PostgreSQL), reducing latency by 60%."
-          - "Established secure service-to-service authentication (Auth0 OIDC, RBAC) and production-grade observability (CI/CD, metrics, tracing, logging)."
-          - "Designed a streaming and integration layer linking IoT (Project44), logistics (OTM), CRM (Salesforce), and ERP data through Kafka, Flink."
+          - "Architected and scaled a **distributed ERP/CRM platform** on **AWS EKS**, owning end-to-end design across microservices, data pipelines, and infrastructure serving multi-team internal and B2B workflows."
+          - "Designed a **high-consistency transactional engine** handling dynamic pricing, contract lifecycle management, and state transitions across **distributed services**, ensuring **data integrity** under concurrent updates."
+          - "Built real-time **supply-demand orchestration** integrating orders, procurement, and inventory using **event-driven architecture (Kafka)**, enabling low-latency synchronization across systems."
+          - "Improved platform scalability and reliability through containerized microservices **(Spring Boot, GraphQL, RESTful, Redis, PostgreSQL)**, reducing latency by 60% and supporting high-volume transactional workloads."
+          - "Established secure **service-to-service authentication (Auth0** OIDC, **RBAC)** and production-grade observability **(CI/CD, metrics, tracing, logging)**, increasing deployment reliability and system resilience."
+          - "Designed a **streaming and integration layer** linking **IoT (Project44)**, **logistics (OTM)**, **CRM (Salesforce)**, and ERP data through **Kafka, Flink** for real-time synchronization and analytics ingestion into **Databricks**."
 
       - company: Xiaomi Technology
         position: Backend Development Intern
@@ -58,9 +59,10 @@ cv:
         start_date: 2021-05
         end_date: 2021-07
         highlights:
-          - "Developed flash sale functionality for the 618 Shopping Festival, leveraging Nginx for load balancing and Redis for caching."
-          - "Implemented Apache Kafka and multithreading for efficient asynchronous processing."
-          - "Contributed to a high-traffic WeChat account using Kafka dead-letter queue for message notifications."
+          - "Developed Xiaomi's flash sale functionality for the 618 Shopping Festival, leveraging **Nginx** for load balancing and **Redis** for caching to ensure system stability."
+          - "Implemented **Apache Kafka** and multithreading for efficient asynchronous processing."
+          - "Contributed to the development of a high-traffic WeChat account, using **Apache Kafka** to create a dead-letter queue for message notifications and implementing scheduled message delivery."
+          - "Completed backend requirements for H5 pages, developed real-time Olympic medal tally feature with Spring Boot for scheduled tasks."
 
       - company: WeBank
         position: Java Backend Development Engineer Intern
@@ -68,9 +70,10 @@ cv:
         start_date: 2020-06
         end_date: 2020-08
         highlights:
-          - "Developed and optimized a high-performance data system using Redis for financial transactions."
-          - "Implemented backend services using RESTful API, Spring Boot to enhance system efficiency."
-          - "Implemented a microservices architecture using Spring Cloud for distributed system stability."
+          - "Developed and optimized a high-performance data system, utilizing **Redis** for efficient data storage and retrieval of financial transactions."
+          - "Implemented backend services using **RESTful API**, **Spring framework**, **Spring Boot** to enhance system efficiency."
+          - "Utilized **Apache Kafka** as a message queue to enable asynchronous processing and load balancing to ensure reliable message delivery."
+          - "Implemented a microservices architecture, using **Spring Cloud** to ensure stability and consistency of distributed system."
 
     Skills:
       - name: Languages

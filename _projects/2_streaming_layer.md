@@ -1,21 +1,19 @@
 ---
 layout: page
-title: Real-Time Streaming & Integration Layer
-description: Streaming and integration layer linking IoT, logistics, CRM, and ERP data through Kafka and Flink for real-time synchronization and analytics ingestion into Databricks.
+title: College Lab Weekly Reports System
+description: Dynamic web application for managing labs, viewing and editing weekly reports, built with Spring, SpringMVC, MyBatis, and MySQL.
 img:
 importance: 2
-category: professional
+category: personal
 ---
 
-Designed a **streaming and integration layer** linking IoT (Project44), logistics (OTM), CRM (Salesforce), and ERP data through Kafka and Flink for real-time synchronization and analytics ingestion into Databricks.
-
-### Key Highlights
-
-- Integrated multiple external data sources into a unified real-time pipeline
-- Enabled **real-time analytics ingestion** into Databricks for business intelligence
-- Built resilient connectors with fault tolerance and retry mechanisms
-- Supported low-latency data synchronization across heterogeneous systems
+**Nov 2021 – Dec 2021** | Associated with Washington University in St. Louis
 
 ### Tech Stack
+`HTML/CSS` `JavaScript` `Spring` `SpringMVC` `MyBatis` `MySQL`
 
-`Kafka` `Flink` `Databricks` `Project44` `Salesforce` `OTM` `Python` `Java`
+### Highlights
+
+- Created a dynamic website with HTML/CSS, JS for users to manage labs, to view and edit weekly reports
+- Applied the Spring, SpringMVC to implement all components in Java Web application
+- Utilized MyBatis to accomplish database access in Java application and constructed a relational database with MySQL to store users, labs and reports information

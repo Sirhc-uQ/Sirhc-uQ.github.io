@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Highlights of my professional and personal projects.
+description: Personal and academic projects.
 nav: true
 nav_order: 2
-display_categories: [professional, personal]
+display_categories: [personal]
 horizontal: false
 ---
 

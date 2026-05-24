@@ -1,21 +1,20 @@
 ---
 layout: page
-title: Distributed ERP/CRM Platform
-description: End-to-end distributed ERP/CRM platform on AWS EKS serving multi-team internal and B2B workflows with microservices, data pipelines, and event-driven architecture.
+title: Healthcare Data Analysis
+description: Used Python, Pandas, Numpy, Sklearn, and Seaborn for healthcare data preprocessing, feature analysis, PCA extraction, and prediction with 90%+ accuracy via xgboost.
 img:
 importance: 1
-category: professional
+category: personal
 ---
 
-Architected and scaled a distributed ERP/CRM platform on **AWS EKS**, owning end-to-end design across microservices, data pipelines, and infrastructure serving multi-team internal and B2B workflows.
-
-### Key Highlights
-
-- Designed a **high-consistency transactional engine** handling dynamic pricing, contract lifecycle management, and state transitions across distributed services, ensuring data integrity under concurrent updates.
-- Built **real-time supply-demand orchestration** integrating orders, procurement, and inventory using event-driven architecture (Kafka), enabling low-latency synchronization across systems.
-- Improved platform scalability and reliability through containerized microservices (**Spring Boot, GraphQL, RESTful, Redis, PostgreSQL**), reducing latency by **60%** and supporting high-volume transactional workloads.
-- Established secure **service-to-service authentication** (Auth0 OIDC, RBAC) and production-grade observability (CI/CD, metrics, tracing, logging).
+**Nov 2022 – Dec 2022** | Associated with Washington University in St. Louis
 
 ### Tech Stack
+`Jupyter Notebook` `Python` `Pandas` `Numpy` `Sklearn` `Seaborn`
 
-`Java` `Spring Boot` `GraphQL` `RESTful` `Redis` `PostgreSQL` `Kafka` `AWS EKS` `Docker` `Kubernetes` `Auth0`
+### Highlights
+
+- Used numpy and Pandas to preprocess the healthcare data, handling with errors and missing values
+- Utilized Seaborn to analyze features by making kernel density estimate of features' distribution and computing correlations
+- Applied PCA for feature extraction, and utilized k-means clustering from Sklearn to remove noises
+- After comparing multiple algorithms, used xgboost to analyze data and improved the accuracy of prediction over 90%
